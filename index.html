@@ -2,51 +2,68 @@
 <html lang="pt-br">
     <head charset="utf-8">
         <title>Minha página</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" >
     </head>
-    <body>
+    <body> 
+        <a href="mailto:1234567890">contato@empresa.com</a>
+
         <P>MINHA PÁGINA</P>
         <nav>
             <ul>
-                <li>SERVIÇOS</li>
-                <li>CLIENTES</li>
-                <li>PARCEIROS</li>
-                <li>TIME</li>
-                <li>CONTATO</li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#clientes">CLIENTES</a></li>
+                <li><a href="#parceiros">PARCEIROS</a></li>
+                <li><a href="#time">TIME</a></li>
+                <li><a href="#contato">CONTATO</a></li>
             </ul>
         </nav>
-        Minha primeira página
+        <h2>Minha primeira página</h2>
         <header>
-            <h1>Minha página:</h1>
-            <p>Oferecemos desenvolvimento de sites e apps</p>
+            <h1>xxxxMinha página:xxxx</h1>
+            <p>Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+                Oferecemos desenvolvimento de sites e apps
+            </p>
         </header>
         <p></p>
-        <section>
+        <section id="servicos">
             SERVIÇOS
             <P>Oferecemos desenvolvimento de sites e apps</P>
-            <img src="img/software.JPG" width="300PX"  >
+            <img src="img/software.JPG" class="img_padrao"  >
+            <p></p>
+            <img src="img/clientes.JPG" class="img_padrao" >
         </section>
         <p></p>
-        <section>
+        <section id="clientes">
             CLIENTES
             <P>Nossos clientes ficaram muito satisfeitos com nossos serviços</P>
-            <img src="img/clientes.JPG" width="300PX"  >
+            <img src="img/clientes.JPG" class="img_padrao"  >
         </section>
         <p></p>
-        <section>
+        <section id="parceiros">
             PARCEIROS
             <P>Oferecemos desenvolvimento de sites e apps</P>
-            <img src="img/software.JPG" width="300PX"  >
+            <a href="https://digitalinnovation.one/">
+                <img src="img/software.JPG" class="img_padrao">
+            </a>
         </section>
         <p></p>
-        <section>
+        <section id="time">
             TIME
             <P>equipe dev:</P>
             <P>Mônica Rodrigues</P>
         </section>
-        <section>
+        <section id="contato">
             CONTATO
-            <P>Nosso whatssap é (21) 99799-3065</P>
-            <img src="img/whatssap.JPG" width="100PX"  >
+            <p>Nosso e-mail é <a href="mailto:msrodrigues68@hotmail.com">
+                <img src="img/email.JPG" class="logo" ></a></p>
+            <P>Nosso whatssap é <a href="tel:21997993065">(21) 99799-3065</a> </P>
+            <img src="img/whatssap.JPG" class="logo" >
         </section>
         <footer>Desenvolvido por Mônica Rodrigues</footer>
     </body>
